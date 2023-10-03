@@ -1,0 +1,54 @@
+img{
+    width: 5.3%;
+    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+  #navbar {
+    overflow: hidden;
+    background-color: #82d1ff;
+  }
+
+  #navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  .content {
+    padding: 16px;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  
+  body {
+    background: #2cb2ff;
+    font-family: 'Martian Mono', monospace;
+  }
+
+  
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 200px;
+  margin-left: 200px;
+  text-align: center;
+}
+
